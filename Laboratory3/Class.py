@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Person:
     def __init__(self, year, high, weight):
         self.year = year
