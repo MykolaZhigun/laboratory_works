@@ -1,5 +1,5 @@
 def main():
-    exp_dictionary = {"1" : "Привsт ",
+    exp_dictionary = {"1" : "Привіт ",
                       "2" : "Світ",
                       "3" : "!"}
     var_massive = [1, 2, 4, 16, 2, 187]  # массив 
