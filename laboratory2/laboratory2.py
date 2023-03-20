@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def main():
     exp_dictionary = {"1" : "Привіт ",
                       "2" : "Світ",
