@@ -7,7 +7,7 @@ class Person:
 person1 = Person(17, 163, 81)
 person2 = Person(13, 163, 82)
 
-print("Зрівнюємо вік: ")
+print("Порівнюємо вік: ")
 if person1.year > person2.year:
     print(f"Вік першої персони {person1.year} більше ніж другої {person2.year}")
 elif person1.year == person2.year:
@@ -15,7 +15,7 @@ elif person1.year == person2.year:
 else:
     print(f"Вік першої персони {person1.year} меньше ніж другої {person2.year}")
 
-print("\nЗрівнюємо зріст: ")
+print("\nПорівнюємо зріст: ")
 if person1.high > person2.high:
     print(f"Зріст першої персони {person1.high} більше ніж другої {person2.high}")
 elif person1.high == person2.high:
@@ -23,7 +23,7 @@ elif person1.high == person2.high:
 else:
     print(f"Зріст першої персони {person1.high} меньше ніж другої {person2.high}")
 
-print("\nЗрівнюємо вагу: ")
+print("\nПорівнюємо вагу: ")
 if person1.weight > person2.weight:
     print(f"Вага першої персони {person1.weight} більше ніж другої {person2.weight}")
 elif person1.weight == person2.weight:
