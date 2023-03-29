@@ -5,7 +5,7 @@ def main():
     exp_dictionary = {"1": "Привет ",
                       "2": "Мир",
                       "3": "!"}
-    var_massive = [] #массив для зрівняння далі
+    var_massive = [] # Пустий массив
     exp_cortage = (1,2,5,16,2,187) #кортеж
 
 
@@ -18,7 +18,7 @@ def main():
     print("_"*20)
 
     for i in range(20):
-        var_massive.append(i)
+        var_massive.append(i) # Заповнюємо массив
 
     print(f"{var_massive}: - Массив до змін")
 
