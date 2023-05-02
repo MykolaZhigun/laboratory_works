@@ -27,10 +27,8 @@ person1 = Person(17, 163, 81)
 person2 = Person(13, 163, 82)
 
 if person1.year > person2.year:
-    print(f"Вік першої персони {person1.year} більше ніж другої {person2.year}")
     new_file.write(f"\nВік першої персони {person1.year} більше ніж другої {person2.year}")
 elif person1.year == person2.year:
-    print(f"Вік однаковий. Вік першої персони {person1.year}. Вік другої персони: {person2.year}")
     new_file.write(f"\nВік однаковий. Вік першої персони {person1.year}. Вік другої персони: {person2.year}")
 else:
     new_file.write(f"\nВік першої персони {person1.year} меньше ніж другої {person2.year}")
